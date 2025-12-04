@@ -1,0 +1,67 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.env.bak/
+.venv/
+*.env
+
+# Jupyter Notebook autosaves
+*.ipynb_checkpoints/
+
+# --- Data files to exclude (optional) ---
+# Uncomment if datasets should NOT be uploaded to GitHub
+# *.csv
+# *.xlsx
+# *.xls
+# *.parquet
+# *.sav
+
+# --- Excel / Office temporary files ---
+~$*
+*.tmp
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- OS / filesystem junk ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- OneDrive metadata ---
+*.lnk
+*.one
+*.onetoc2
+*.ini
+
+# --- Logs ---
+*.log
+
+# --- Build / cache directories ---
+build/
+dist/
+*.egg-info/
+.cache/
+
+# --- Archives ---
+*.zip
+*.tar
+*.gz
+*.7z
+
+# --- Security ---
+# Private keys or secrets (if you add any)
+*.pem
+*.key
+*.crt
